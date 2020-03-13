@@ -52,7 +52,7 @@ void ComputePI::execute()
 void ComputePI::writeFile()
 {
 	FILE *pFile;
-	pFile = fopen("/Users/mariano/code/EulerProject/pi.txt", "w");
+	pFile = fopen("pi.txt", "w");
 	auto printCount = 0ull;
 
 	for (auto i = 0ul; i < m_cs.size(); i++)
